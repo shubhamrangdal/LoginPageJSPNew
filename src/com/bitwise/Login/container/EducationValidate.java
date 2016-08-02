@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.bitwise.Login.model.CookieCheck;
+
 /**
  * Servlet implementation class EducationValidate
  */
@@ -29,6 +31,9 @@ public class EducationValidate extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		CookieCheck cookie	=new CookieCheck();
+		cookie.checkCookie(request, response);
 		System.out.println("in servlet education");
 		PrintWriter out = response.getWriter();
 		String collegeName = request.getParameter("collegeName");

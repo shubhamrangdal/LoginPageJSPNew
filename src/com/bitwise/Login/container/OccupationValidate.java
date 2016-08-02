@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.bitwise.Login.model.CookieCheck;
+
 /**
  * Servlet implementation class OccupationValidate
  */
@@ -29,6 +31,8 @@ public class OccupationValidate extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		
 		PrintWriter out = response.getWriter();
 		String companyName = request.getParameter("companyName");
 		String designation = request.getParameter("designation");

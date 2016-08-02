@@ -13,38 +13,35 @@
     <url-pattern>/LoginPage</url-pattern>
   </filter-mapping>
   <servlet>
-  	<servlet-name>LoginPage</servlet-name>
-  	<servlet-class>com.bitwise.Login.container.LoginPage</servlet-class>
+    <servlet-name>LoginPage</servlet-name>
+    <servlet-class>com.bitwise.Login.container.LoginPage</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>LoginPage</servlet-name>
-  	<url-pattern>/LoginPage</url-pattern>
+    <servlet-name>LoginPage</servlet-name>
+    <url-pattern>/LoginPage</url-pattern>
   </servlet-mapping>
-  
   <servlet>
-  	<servlet-name>EducationValidate</servlet-name>
-  	<servlet-class>com.bitwise.Login.container.EducationValidate</servlet-class>
+    <servlet-name>EducationValidate</servlet-name>
+    <servlet-class>com.bitwise.Login.container.EducationValidate</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>EducationValidate</servlet-name>
-  	<url-pattern>/EducationValidate</url-pattern>
+    <servlet-name>EducationValidate</servlet-name>
+    <url-pattern>/EducationValidate</url-pattern>
   </servlet-mapping>
-  
   <servlet>
-  	<servlet-name>OccupationValidate</servlet-name>
-  	<servlet-class>com.bitwise.Login.container.OccupationValidate</servlet-class>
+    <servlet-name>OccupationValidate</servlet-name>
+    <servlet-class>com.bitwise.Login.container.OccupationValidate</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>OccupationValidate</servlet-name>
-  	<url-pattern>/OccupationValidate</url-pattern>
+    <servlet-name>OccupationValidate</servlet-name>
+    <url-pattern>/OccupationValidate</url-pattern>
   </servlet-mapping>
-  
-   <servlet>
-  	<servlet-name>ResidentialValidate</servlet-name>
-  	<servlet-class>com.bitwise.Login.container.ResidentialValidate</servlet-class>
+  <servlet>
+    <servlet-name>ResidentialValidate</servlet-name>
+    <servlet-class>com.bitwise.Login.container.ResidentialValidate</servlet-class>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>ResidentialValidate</servlet-name>
-  	<url-pattern>/ResidentialValidate</url-pattern>
+    <servlet-name>ResidentialValidate</servlet-name>
+    <url-pattern>/ResidentialValidate</url-pattern>
   </servlet-mapping>
 </web-app>
